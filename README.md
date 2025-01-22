@@ -77,7 +77,7 @@ plt.legend(loc = 'lower right', title = 'Legend')
 
 plt.savefig("../output/000.tiff")
 ```
-This generates the plot below, visualising the model we just built.</br>
+This generates the plot below, visualising the model we just built.
 ![000](https://github.com/user-attachments/assets/5e7da940-a7c3-4c39-8724-827f601ec4a3)
 
 From this plot, we can observe several key things:
@@ -138,9 +138,9 @@ print(f'G2 reaches its steady state at the gene expression level of {g2s}.')
 print(f'G3 reaches its steady state at the gene expression level of {g3s}.')
 ```
 From this chunk of code, we identify the steady states of each gene and get the following output:
->G1 reaches its steady state at the gene expression level of 0.27110017667389524.</br>
->G2 reaches its steady state at the gene expression level of 0.4265598914167873.</br>
->G3 reaches its steady state at the gene expression level of 0.6377346722976718.</br>
+>G1 reaches its steady state at the gene expression level of 0.27110017667389524.
+>G2 reaches its steady state at the gene expression level of 0.4265598914167873.
+>G3 reaches its steady state at the gene expression level of 0.6377346722976718.
 
 Lastly, let's visualise the identified steady states.
 ```
@@ -167,6 +167,6 @@ plt.legend(loc = 'upper right', title = 'Legend')
 plt.savefig("../output/steady-states.png")
 ```
 
-This generates our final plot below, visualising the model dynamics and labelling steady state of each of the three genes.</br>
+This generates our final plot below, visualising the model dynamics and labelling the steady state of each of the three genes.
 ![steady-states](https://github.com/user-attachments/assets/8b315be2-6537-42d1-9bca-8911e903760d)
 
