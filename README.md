@@ -15,6 +15,8 @@ from scipy.optimize import fsolve
 
 We are modelling a gene regulatory network where gene G1 activates genes G2 and G3, G2 activates G3, and G3 inhibits G1. The model is defined by the following equations:
 
+Please read this on the [deployed page for this repository](https://doramarcec.github.io/gene-regulatory-network-modelling/) as otherwise, GitHub won't allow you to see the prettily rendered equations below :(
+
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
