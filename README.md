@@ -167,6 +167,6 @@ plt.legend(loc = 'upper right', title = 'Legend')
 plt.savefig("../output/steady-states.png")
 ```
 
-This generates our final plot below, visualising the model dynamics and labelling the steady state of each of the three genes.
+This generates our final plot below, visualising the model dynamics when the expression of all three genes equals 1 at the time 0, and labelling the steady state of each of the three genes.
 ![steady-states](https://github.com/user-attachments/assets/8b315be2-6537-42d1-9bca-8911e903760d)
 
