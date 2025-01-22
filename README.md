@@ -15,6 +15,9 @@ from scipy.optimize import fsolve
 
 We are modelling a gene regulatory network where gene G1 activates genes G2 and G3, G2 activates G3, and G3 inhibits G1. The model is defined by the following equations:
 
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 $$\frac{d[G1](t)}{dt} = k_{1} \frac{1}{1 + K_{13} \cdot [G3]} - d_{1} \cdot [G1]$$
 
 $$\frac{d[G2](t)}{dt} = k_{2} \frac{K_{21} \cdot [G1]}{1 + K_{21} \cdot [G1]} - d_{2} \cdot [G2]$$
